@@ -1,8 +1,28 @@
 
   .heading{
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
   }
   body{
     background-color: rgb(246, 161, 223);
   }
+  .col{
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
+    margin: 10px 0px;
+  }
+  @media (max-width: 900px) {
+    .heading {
+      font-size: 90px;
+      line-height: 2;
+    }
+    
+  }
+
+  @media (min-width: 901px) {
+    .heading {
+        font-size: 44px;
+        line-height: 2;
+    } 
+  }
+ 
