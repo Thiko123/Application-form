@@ -15,11 +15,14 @@
    
   }
   .country{
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 100px;
     margin: 10px 0px;
+    text-align: left;
+    
   }
   .count{
     text-decoration: solid;
+    font-size: 23px;
   }
   .btn{
     background: rgb(203, 23, 164);

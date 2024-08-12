@@ -7,20 +7,62 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
 <body class="body">
     <p class="heading"> <strong>Application Form:</strong></p>
     <div class="container text-center">
         <div class="row">
           <div class="col">
             <label for="firstname">
-                First name:
+               <strong> First name:</strong>
             </label>
             <br/>
             <input type="text" id="fname" name="fname">
           </div>
           <div class="col">
             <label for="midname">
-                Middle name:
+                <strong>Middle name:</strong> 
             </label>
             <br/>
             <input type="text" id="midname" name="midname"> 
@@ -31,14 +73,14 @@
         <div class="row">
           <div class="col">
             <label for="lastname">
-                Last name:
+                <strong>Last name:</strong>
             </label>
             <br/>
             <input type="text" id="lname" name="lname">
           </div>
           <div class="col">
             <label for="age">
-                Age:
+               <strong> Age:</strong>
             </label>
             <br/>
             <input type="text" id="age" name="age">  
@@ -50,7 +92,7 @@
      <div class="container text-center">
         <div class="row">
           <div class="col">
-            <p>Gender?</p>
+            <p><strong>Gender?</strong></p>
         <input type="radio" id="fmale" name="gender" value="fmale">
         <label for="fmale"> 
             Female
@@ -67,7 +109,7 @@
         </label>
           </div>
           <div class="col">
-            <p>What are your hobbies?</p>
+            <p><strong>What are your hobbies?</strong></p>
            <input type="checkbox" id="hobby1" name="hobby1" value="Crocheting">
            <label for="hobby1">
              Gym
@@ -90,7 +132,7 @@
 
         <div class="country">
            <label for="country-names" class="count">
-            Choose a Country: 
+            <strong>Choose a Country:</strong> 
             </label>
             <br/>
            <select name="country-names" id="country-names" >
@@ -126,13 +168,13 @@
             <div class="row">
               <div class="col">
             <label for="username">
-            Email: 
+            <strong>Email:</strong> 
             </label>
             <input type="email">
               </div>
               <div class="col">
                <label for="username">
-                Password: 
+                <strong>Password:</strong> 
             </label> 
             <input type="password">
             </div>
