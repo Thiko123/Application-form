@@ -30,7 +30,8 @@
     color: white;
     font-size: 20px;
     line-height: 27px;
-    padding: 12px 20px;
+    padding: 12px 20px ;
+    margin: 5px;
   }
   @media (max-width: 900px) {
     .heading {
