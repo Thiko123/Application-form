@@ -27,10 +27,13 @@
     
   }
 
-  @media (min-width: 901px) {
+  @media (min-width: 600px) {
     .heading {
         font-size: 44px;
         line-height: 2;
     } 
+    body{
+        text-align: center;
+    }
   }
  
